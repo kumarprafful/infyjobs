@@ -37,6 +37,11 @@ const MainNavigator = createBottomTabNavigator({
           settings: {screen: SettingsScreen}
         })
       }
+    }, {
+      tabBarPositions: 'bottom',
+      tabBarOptions: {
+        labelStyle: {fontSize: 12}
+      }
     })
   }
 }, {
